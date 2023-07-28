@@ -1,5 +1,8 @@
+body{
+    background-color: #e7e7e7;
+}
 nav{
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(255, 255, 255);
 }
 ul{
     display: flex;
@@ -9,8 +12,9 @@ ul{
     color: #ffffff;
 }
 ul li a{
+    font-family: sans-serif;
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(12, 12, 12);
 }
 .cart img{
     width: 300px;
@@ -18,10 +22,19 @@ ul li a{
 }
 .cart p{
     width: 300px;
+    font-family: sans-serif;
+}
+.cart h3 a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.cart{
+    width: 300px;
 }
 .box{
     padding: 50px;
-    background-color: #bdbdbd;
+    background-color: #ffffff;
     width: 80%;
     margin: 0 auto;
     display: flex;

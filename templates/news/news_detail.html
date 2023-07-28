@@ -1,0 +1,25 @@
+{% extends '_base.html' %}
+{% block title %}{{ obj.title }}{% endblock title %} {% block content %}
+<style>
+    .detail{
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: sans-serif;
+    }
+    .img{  
+        width:450px;
+    }
+    
+</style>
+
+<div class="detail">
+    <h1>{{obj.title}}</h1>
+    <p>{{obj.created_at}}</p>
+    <img class="img" src="{{obj.image.url}}" alt="">
+    <p>{{obj.content}}</p>
+</div>
+
+{% endblock content %}

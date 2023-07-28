@@ -1,13 +1,13 @@
 {% extends '_base.html' %}
 {% block title %}Home{% endblock title %} {% block content %}
-<h1>Homepage</h1>
 
 <div class="box">
     {% for article in articles %}
     <div class="cart">
-        <img src="https://w-dog.ru/wallpapers/10/18/464728990985141/priroda-gory-kamni-les.jpg" alt="">
-        <p>{{article.title}}</p>
-        <p>{{article.created_at}}</p>
+        <a href="{% url 'detail_views' article.id %}"><img src="{{ article.image.url }}" alt=""></a>
+        
+        <h3><a href="{% url 'detail_views' article.id %}">{{article.title}}</a></h3>
+        <!-- <p>{{article.created_at}}</p> -->
     </div>
     {% endfor %}
 </div>
