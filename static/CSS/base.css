@@ -1,8 +1,8 @@
 body{
-    background-color: #e7e7e7;
+    background-color: #f1f1f1;
 }
 nav{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(50, 50, 50);
 }
 ul{
     display: flex;
@@ -12,22 +12,12 @@ ul{
     color: #ffffff;
 }
 ul li a{
-    font-family: sans-serif;
     text-decoration: none;
-    color: rgb(12, 12, 12);
+    color: aliceblue;
 }
 .cart img{
     width: 300px;
     height: 200px;
-}
-.cart p{
-    width: 300px;
-    font-family: sans-serif;
-}
-.cart h3 a{
-    text-decoration: none;
-    color: black;
-    font-family: sans-serif;
 }
 .cart{
     width: 300px;
