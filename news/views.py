@@ -25,4 +25,4 @@ def create_article(request):
     else:
         form = ArticleForm()
     context = {'form': form}
-    return render(request, 'news/create_article.html', context)
+    return render(request, 'news/create_article.html',  context)
